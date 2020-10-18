@@ -26,11 +26,11 @@ $\ell_j(x) := \prod_{i=0,\, i\neq j}^{k} \frac{x-x_i}{x_j-x_i} = \frac{(x-x_0)}{
 
 实验结果表明，对于少量的数据点，由于使用的是低次的多项式，直接插值可以得到正确的结果，并且允许数据存在一定的误差：
 
-![lagrange2](\image\lagrange1.png)![lagrange1](\image\lagrange2.png)
+![lagrange1](image/lagrange1.png)![lagrange2](image/lagrange2.png)
 
 但是对于大量的数据点，使用高次多项式的结果是在插值区间的边缘出现振荡，点集的左侧和右侧也会随着最高次数的多项式快速发散，并且数据的轻微扰动也会显著影响插值的结果：
 
-![lagrange3](\image\lagrange3.png)
+![lagrange3](image/lagrange3.png)
 
 查询资料后发现这种现象被称为龙格现象，表明使用高次多项式插值并不总能提高准确性。
 
@@ -42,7 +42,7 @@ $\ell_j(x) := \prod_{i=0,\, i\neq j}^{k} \frac{x-x_i}{x_j-x_i} = \frac{(x-x_0)}{
 
 实验过程中将 $b_0$ 设为超参数，在保证 $y_i > 0$ 的条件下默认 $b_i = 0$，不同参数的实验结果如下：
 
-![gauss](\image\gauss.png)
+![gauss](image/gauss.png)
 
 #### 最小二乘法 & 岭回归
 
@@ -66,16 +66,16 @@ $(A^{T}A)^{-1}A^{T}AW=(A^TA)^{-1}A^{T}B$
 
 在给出较小的点集时，四种插值结果都显示出较好的拟合结果，在给定次数的情况下，最小二乘法给出了最好的低次多项式近似拟合，高斯基函数插值最拟合了原离散点的分布，而拉格朗日插值在区间内插值结果较好，区间外则出现了龙格现象，实验结果如下：
 
-![final1](\image\final1.png)
+![final1](image/final1.png)
 
 而对于较大的随机点集，拉格朗日插值直接失效，高斯基函数插值波动误差较大（给出的点集分布不均匀产生的），最小二乘法给出了较好的拟合结果，实验结果如下：
 
-![final2](\image\final2.png)
+![final2](image/final2.png)
 
 构造生成二次函数的点集数据，并施加一个小的随机扰动，高斯基函数插值和最小二乘法都拟合的较好，实验结果如下：
 
 
 
-![final3](\image\final3.png)
+![final3](image/final3.png)
 
-当施加一个大的扰动时，高斯基函数插值出现了过拟合，但是最小二乘法仍保持未扰动之前的分布，实验结果如下：![final4](\image\final4.png)
+当施加一个大的扰动时，高斯基函数插值出现了过拟合，但是最小二乘法仍保持未扰动之前的分布，实验结果如下：![final4](image/final4.png)
