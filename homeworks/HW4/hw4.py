@@ -94,7 +94,7 @@ while True:
 
     # Draw linear interpolation
     for i in range(0, n - 1):
-        gui.line(begin = X[i], end = X[i + 1], radius = 1, color = 0x444444)
+        gui.line(begin = X[i], end = X[i + 1], radius = 2, color = 0x444444)
         delta_t = t[i] / k
         for j in range(k):
             t0 = j * delta_t
@@ -103,10 +103,10 @@ while True:
             x1 = a[i][0] + b[i][0] * t1 + c[i][0] * t1 ** 2 + d[i][0] * t1 ** 3
             y0 = a[i][1] + b[i][1] * t0 + c[i][1] * t0 ** 2 + d[i][1] * t0 ** 3
             y1 = a[i][1] + b[i][1] * t1 + c[i][1] * t1 ** 2 + d[i][1] * t1 ** 3
-            gui.line(begin = (x0, y0), end = (x1, y1), radius = 1, color = 0xFF0000)
+            gui.line(begin = (x0, y0), end = (x1, y1), radius = 2, color = 0xFF0000)
 
     # Draw the vertices
     for i in range(n):
-        gui.circle(pos = X[i], color = 0x111111, radius = 3)
+        gui.circle(pos = X[i], color = 0x111111, radius = 5)
 
     gui.show()
