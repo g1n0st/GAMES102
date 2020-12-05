@@ -26,55 +26,55 @@ $H\mathbf{n}=\frac{1}{4A}(\text{cot}\alpha_j+\text{cot}\beta_j)(\mathbf{P}-\math
 
 ### 结果
 
-![Figure_1](C:\Users\yc\Desktop\hw6\Figure\Figure_1.png)
+![Figure_1](Figure/Figure_1.png)
 
 原始的人脸图像，颜色为法线。
 
-![Figure_0](C:\Users\yc\Desktop\hw6\Figure\Figure_0.png)
+![Figure_0](Figure/Figure_0.png)
 
 $\lambda=0.1$，迭代100次。（着色为顶点迭代移动方向）
 
-![Figure_2](C:\Users\yc\Desktop\hw6\Figure\Figure_2.png)
+![Figure_2](Figure/Figure_2.png)
 
 $\lambda=0.1$，迭代500次。（着色为顶点迭代移动方向）
 
-![Figure_3](C:\Users\yc\Desktop\hw6\Figure\Figure_3.png)
+![Figure_3](Figure/Figure_3.png)
 
 $\lambda=0.1$，迭代1000次。（着色为顶点迭代移动方向）
 
-![Figure_4](C:\Users\yc\Desktop\hw6\Figure\Figure_4.png)
+![Figure_4](Figure/Figure_4.png)
 
 迭代至收敛的结果（着色为正常表面法线）
 
-![Figure_5](C:\Users\yc\Desktop\hw6\Figure\Figure_5.png)
+![Figure_5](Figure/Figure_5.png)
 
 bunny head模型（着色为正常法线）
 
-![Figure_6](C:\Users\yc\Desktop\hw6\Figure\Figure_6.png)
+![Figure_6](Figure/Figure_6.png)
 
 $\lambda=0.1$，迭代10次。（着色为顶点迭代移动方向）
 
-![Figure_7](C:\Users\yc\Desktop\hw6\Figure\Figure_7.png)
+![Figure_7](Figure/Figure_7.png)
 
 $\lambda=0.1$，迭代200次。（着色为顶点迭代移动方向）
 
-![Figure_8](C:\Users\yc\Desktop\hw6\Figure\Figure_8.png)
+![Figure_8](Figure/Figure_8.png)
 
 $\lambda=1.0$，迭代200次。（着色为顶点迭代移动方向）
 
-![Figure_9](C:\Users\yc\Desktop\hw6\Figure\Figure_9.png)
+![Figure_9](Figure/Figure_9.png)
 
 $\lambda=0.5$，迭代200次。（着色为顶点迭代移动方向）
 
-![Figure_10](C:\Users\yc\Desktop\hw6\Figure\Figure_10.png)
+![Figure_10](Figure/Figure_10.png)
 
 $\lambda=0.1$，迭代1000次。（着色为顶点迭代移动方向）
 
-![Figure_11](C:\Users\yc\Desktop\hw6\Figure\Figure_11.png)
+![Figure_11](Figure/Figure_11.png)
 
 $\lambda=1.0$，迭代1000次。（着色为顶点迭代移动方向）
 
-![Figure_12](C:\Users\yc\Desktop\hw6\Figure\Figure_12.png)
+![Figure_12](Figure/Figure_12.png)
 
 迭代至几乎收敛的结果（着色为正常表面法线）
 
