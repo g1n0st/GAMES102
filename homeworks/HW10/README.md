@@ -11,7 +11,7 @@
 
 ### 实现
 
-这两周都在考试周，苦逼本科生16号才考完最后一门，还没有仔细研究算法细节。目前先尝试成功配置了pcl库（https://pointclouds.org）并调用库内置的算法实现了Poisson Surface Reconstruction.
+这两周都在考试周，苦逼本科生16号才考完最后一门，还没有仔细研究算法细节。目前先尝试成功配置了pcl库（https://pointclouds.org ）并调用库内置的算法实现了Poisson Surface Reconstruction.
 
 
 
@@ -21,7 +21,7 @@
 
 
 
-下阶段准备用Taichi实现 Poisson Surface Reconstruction 和 Simulation and Visualization of Ductile Fracture with the Material Point Method (https://dl.acm.org/doi/10.1145/3340259)，作为MPM simulation pipeline的最后一步。
+下阶段准备用Taichi实现 Poisson Surface Reconstruction 和 Simulation and Visualization of Ductile Fracture with the Material Point Method (https://dl.acm.org/doi/10.1145/3340259 )，作为MPM simulation pipeline的最后一步。
 
 ## Coming soon... : )
 
